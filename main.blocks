@@ -1,4 +1,19 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{erKseFY1;e,8(Tfq:Ox">alterar</variable><variable id="K?jvs?)wWUr@,*u@]!Uh">jog1</variable><variable id="4h93gg-FA;1O}vnV3+l[">jog2</variable></variables><block type="pxt-on-start" id="}mMbr)45?G}0np0(.#cT" x="123" y="-309"></block><block type="device_forever" id="ZN4K^^1V54^jS`x_o*8k" x="344" y="-310"></block><block type="device_pin_event" id="ugsGdz1[TYV=3%G#X0]y" x="189" y="-185"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_number" id="^{=KjG,V:7$g1eHo?Gj]"><value name="number"><shadow type="math_number" id="%,??gP[zJ+}LOW]qOwGQ"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="H}UD[gOVd~Kw%0{p+Shb"><value name="number"><shadow type="math_number" id="+1rOC^?R4F)-dn+CypV8"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="w3AjI]~xO4,h~u)3S-mV"><value name="number"><shadow type="math_number" id="Lqb$N@!-8o=wjuom*jGi"><field name="NUM">1</field></shadow></value><next><block type="device_print_message" id=";=[01-{egw/4#$J}R(mk"><value name="text"><shadow type="text" id=",}b.C+*XaJ-Rb7cxz$ex"><field name="TEXT">go!!</field></shadow></value><next><block type="device_pause" id="rZYujc]OG7L(O$/.6^_1"><value name="pause"><shadow type="timePicker" id=")@Px)v:49`McoHH$Q{Cg"><field name="ms">100</field></shadow><block type="device_random" id="!/hz628-v%mCl!z;bQYN"><value name="min"><shadow type="math_number" id="*}m5W:#2oG;U`QaWRv}m"><field name="NUM">1000</field></shadow></value><value name="limit"><shadow type="math_number" id="xh,;)v$/c;e0jo(p8AB^"><field name="NUM">5000</field></shadow></value></block></value><next><block type="device_show_leds" id="BC|dB^(0^Ht~1W[tC2=t"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . # # # .
+        `</field><next><block type="device_pause" id="yajbk:$nP)H%gs(8S*73"><value name="pause"><shadow type="timePicker" id="!W+rk=(841h82vRU?M5o"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="BYb2wC%Jv92X3B]:n5mN"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="e.OO}]#fOecdf8OZZP]E" x="763" y="-177"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="variables_change" id=".Y|LZ6t~Gc*93S5W}xJ|"><field name="VAR" id="K?jvs?)wWUr@,*u@]!Uh">jog1</field><value name="VALUE"><shadow type="math_number" id="z=/BK?$ghoj^bZiawNg0"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="sPX^~7Imcxo+.][8gI2o"><field name="LEDS">`
+        . . . # . 
+        . . # # . 
+        . . . # . 
+        . . . # . 
+        . . # # #
+        `</field><next><block type="device_pause" id="[z4J1}+%kbVaF,@qyySK"><value name="pause"><shadow type="timePicker" id="GoR3-nV++259Ss8,6(Cb"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="1z?SltK{~xR:=]bSC*or"></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="gE!4QBf+gV3{Y]V$MizN" x="1083" y="-182"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="variables_change" id="%Hk2,GDmc4xoL4rq|CZq"><field name="VAR" id="4h93gg-FA;1O}vnV3+l[">jog2</field><value name="VALUE"><shadow type="math_number" id="x`gkvD?Ca+sNhM1Ec8*y"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="AS)oQjJ~*URDF6g;#(jm"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . . # # . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="device_pause" id="~LEA0LJP,7GOhZYTR=~E"><value name="pause"><shadow type="timePicker" id="WBG/Z(*Ya`!0+K|(zCeN"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="7u?{CE,2rjWtGm(:wNT^"></block></next></block></next></block></next></block></statement></block></xml>
